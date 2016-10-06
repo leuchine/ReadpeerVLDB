@@ -9,7 +9,7 @@ y1 =[5, 8, 18, 35, 65]
 fig, ax1 = plt.subplots()
 
 
-ax1.plot(x, y1, 'g-s')
+ax1.plot(x, y1, 'g-s',label='Domination')
 
 ax1.set_xlabel('Size')
 ax1.set_ylabel('Time(sec)')
